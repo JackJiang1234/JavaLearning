@@ -18,4 +18,11 @@ public class ClassUtilTest {
             System.out.println(c.getCanonicalName());
         }
     }
+
+    @Test
+    public void getClassNameTest(){
+        System.out.println(String.class.getName());
+        System.out.println(String.class.getCanonicalName());
+        System.out.println(String.class.getSimpleName());
+    }
 }
