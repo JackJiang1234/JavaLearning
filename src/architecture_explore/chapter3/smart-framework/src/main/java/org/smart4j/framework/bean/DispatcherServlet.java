@@ -40,7 +40,7 @@ public class DispatcherServlet extends HttpServlet {
             if (result instanceof View) {
                 handleView(req, res, (View)result);
             } else if (result instanceof Data) {
-
+                handleData(req, res, (Data)result);
             } else {
                 throw new RuntimeException("unsupported action result type");
             }

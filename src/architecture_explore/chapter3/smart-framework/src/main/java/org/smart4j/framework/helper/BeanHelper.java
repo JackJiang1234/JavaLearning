@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * bean实例容器
  * @author jack
  * @since 1.0.0
  */

@@ -9,6 +9,8 @@ import java.lang.reflect.Field;
 import java.util.Map;
 
 /**
+ *
+ * 把inject标注的字段进行实例注入
  * @author jack
  * @since 1.0.0
  */

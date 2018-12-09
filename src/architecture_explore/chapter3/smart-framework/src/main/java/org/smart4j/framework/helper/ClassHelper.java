@@ -7,6 +7,10 @@ import org.smart4j.framework.util.ClassUtil;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * 类加载帮助器
+ * 加载service和controller
+ * */
 public final class ClassHelper {
 
     private static final Set<Class<?>> CLASS_SET;

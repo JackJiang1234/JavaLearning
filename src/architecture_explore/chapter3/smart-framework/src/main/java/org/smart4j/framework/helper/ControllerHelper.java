@@ -12,6 +12,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * 反映加载controller所有的action，封装成request和handle
  * @author jack
  * @since 1.0.0
  */
